@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/angelina/Documents/BAgitlab/ltl-learning/tool/src/ltll/ltll.fsproj": {}
+  },
+  "projects": {
+    "/Users/angelina/Documents/BAgitlab/ltl-learning/tool/src/FsOmegaLib/FsOmegaLib.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/angelina/Documents/BAgitlab/ltl-learning/tool/src/FsOmegaLib/FsOmegaLib.fsproj",
+        "projectName": "FsOmegaLib",
+        "projectPath": "/Users/angelina/Documents/BAgitlab/ltl-learning/tool/src/FsOmegaLib/FsOmegaLib.fsproj",
+        "packagesPath": "/Users/angelina/.nuget/packages/",
+        "outputPath": "/Users/angelina/Documents/BAgitlab/ltl-learning/tool/src/FsOmegaLib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/angelina/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.101/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FParsec": {
+              "target": "Package",
+              "version": "[1.1.1, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/angelina/Documents/BAgitlab/ltl-learning/tool/src/ltll/ltll.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/angelina/Documents/BAgitlab/ltl-learning/tool/src/ltll/ltll.fsproj",
+        "projectName": "ltll",
+        "projectPath": "/Users/angelina/Documents/BAgitlab/ltl-learning/tool/src/ltll/ltll.fsproj",
+        "packagesPath": "/Users/angelina/.nuget/packages/",
+        "outputPath": "/Users/angelina/Documents/BAgitlab/ltl-learning/tool/src/ltll/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/angelina/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.101/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/angelina/Documents/BAgitlab/ltl-learning/tool/src/FsOmegaLib/FsOmegaLib.fsproj": {
+                "projectPath": "/Users/angelina/Documents/BAgitlab/ltl-learning/tool/src/FsOmegaLib/FsOmegaLib.fsproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Extreme.Numerics.FSharp": {
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "generatePathProperty": true
+            },
+            "FParsec": {
+              "target": "Package",
+              "version": "[1.1.1, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "generatePathProperty": true
+            },
+            "MathNet.Numerics.FSharp": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Util.fs" />
+    <Compile Include="Configuration.fs" />
+    <Compile Include="GraphUtil.fs" />
+    <Compile Include="RandomFormula.fs" />
+    <Compile Include="ModelCounting.fs" />
+    <Compile Include="Trace.fs" />
+    <Compile Include="Grammar.fs" />
+    <Compile Include="Learn.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Extreme.Numerics.FSharp" Version="7.0.0" />
+    <PackageReference Include="FParsec" Version="1.1.1" />
+    <PackageReference Include="MathNet.Numerics.FSharp" Version="5.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FsOmegaLib\FsOmegaLib.fsproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <OtherFlags>$(OtherFlags) --warnon:1182</OtherFlags>
+  </PropertyGroup>
+</Project>
